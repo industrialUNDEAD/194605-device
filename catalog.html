@@ -47,9 +47,50 @@
       </section>
       <section class="filters">
         <h2 class="vissually-hidden">Фильтр товаров</h2>
-        <!-- <form></form> /фильтр по стоимости -->
-        <!-- <form></form> /фильтр по цвету -->
-        <!-- <form></form> /фильтр по наличию блютуза -->
+        <form class="filter-form" action="https://echo.htmlacademy.ru" method="post">
+          <label>
+            <input type="range" name="radio" min="0" max="" step=""> Стоимость
+          </label>
+          <fieldset>
+            <legend>Цвет</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="black" id="filter-black">
+                <label for="filter-black">Черный</label>
+              </li>
+              <li>
+                <input type="checkbox" name="white" id="filter-white">
+                <label for="filter-white">Белый</label>
+              </li>
+              <li>
+                <input type="checkbox" name="blue" id="filter-blue">
+                <label for="filter-blue">Синий</label>
+              </li>
+              <li>
+                <input type="checkbox" name="red" id="filter-red">
+                <label for="filter-red">Красный</label>
+              </li>
+              <li>
+                <input type="checkbox" name="pink" id="filter-pink">
+                <label for="filter-pink">Розовый</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Bluetooth</legend>
+            <ul>
+              <li>
+                <input type="radio" name="Bluetooth" value="check" id="filter-bluetooth-check" checked>
+                <label for="filter-bluetooth">Есть</label>
+              </li>
+              <li>
+                <input type="radio" name="Bluetooth" value="not" id="filter-bluetooth-not">
+                <label for="filter-bluetooth-not">Нет</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="button" type="submit">ПОКАЗАТЬ</button>
+        </form>
       </section>
       <section class="catalog">
         <div class="sort">

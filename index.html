@@ -185,16 +185,29 @@
 
     <section class="modal modal-feedback">
       <h2 class="visually-hidden">Контакты</h2>
-      <p>Ваше имя:</p>
-      <p>Ваш e-mail:</p>
-      <p>Текст письма:</p>
-      <form></form>
-      <button></button>
-      <span class="modal-close">X</span>
+      <form class="message-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="name-field">Ваше имя:</label>
+          <input id="name-field" type="text" name="user-name" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="mail-field"> Ваш e-mail:</label>
+          <input id="mail-field" type="text" name="e-mail" placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="message-content-field"> Текст письма:</label>
+          <textarea id="message-content-field" name="message-content">В свободной форме</textarea>
+        </p>
+        <button class="button" type="submit">ОТПРАВИТЬ</button>
+      </form>
+      <button class="modal-close">X</button>
     </section>
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
-      <span class="modal-close">X</span>
+      <p>
+        <img src="img/big-map.jpg" width="960" height="559" alt="ул. Строителей, 15">
+      </p>
+      <button class="modal-close" type="button">X</button>
     </section>
   </body>
 </html>
