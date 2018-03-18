@@ -15,3 +15,53 @@ body {
   color: #000000;
   background-color: #ffffff; 
 }
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  background-color: #f7e296;
+}
+
+.user-list {
+  list-style: none;
+}
+
+.site-navigation {
+  list-style: none;
+  font-family: Gilroy, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.site-navigation a,
+.user-navigation {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-list a:hover,
+.user-list a:focus {
+  opacity: 0.6;
+}
+
+.site-navigation a:active,
+.user-list a:active, {
+  opacity: 0.3;
+}
+
+.main-header-search {
+  opacity: 0.3;
+}
+
+.main-header-search form:hover {
+  opacity: 0.6;
+}
+
+.main-header-search form:focus {
+  border: 2px solid #000000;
+}
+
+
