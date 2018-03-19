@@ -20,7 +20,13 @@ a {
   text-decoration: none;
 }
 
-.main-navigation {
+h2 {
+  font-family: Gilroy, Arial, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+}
+
+.main-header {
   background-color: #f7e296;
 }
 
@@ -64,8 +70,6 @@ a {
   border: 2px solid #000000;
 }
 
-/*/это шапка сайта*/
-
 .button {
   background-size: 220px 8px;
   background-color: #f0c52e;
@@ -83,3 +87,239 @@ a {
   line-height: 24px;
   text-transform: uppercase; 
 }
+
+.button a:active {
+  background-size: 220px 40px;
+  background-color: #f0c52e;
+  font-family: Gilroy, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: 0.3px;
+  text-transform: uppercase; 
+}
+
+.top-product-slide b {
+  font-family: Gilroy, Arial, sans-serif;
+  font-size: 47px;
+  line-height: 56px;
+}
+
+.top-product-slide th {
+  font-family: Gilroy, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.top-product-slide td {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.category-product a {
+  background-color: #f7e296;
+}
+
+.category-product li {
+  list-style: none;
+}
+
+.category-product a:hover {
+  background-color: #f0c52e;
+}
+
+.category-product a:active {
+  opacity: 0.3px;
+}
+
+.services,
+section {
+  background-color: #e5e5e5;
+}
+
+.services li {
+  list-style: none;
+}
+
+.services .button a:active {
+  color: #f7e184;
+  background-color: #000000;
+}
+
+.logotypes li {
+  list-style: none;
+}
+
+.main-footer {
+  background-color: #464646;
+}
+
+.site-navigation li {
+  list-style: none;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social-button a {
+  opacity: 0.3;
+}
+
+.social-button a:hover {
+  opacity: 0.6;
+}
+
+.social-button a:active {
+  opacity: 0.1;
+}
+
+.footer-copyright a:hover {
+  opacity: 0.6;
+}
+
+.footer-copyright a:active {
+  opacity: 0.3;
+}
+
+.modal-close {
+  background-color: #f0c52e;
+  opacity: 0.5;
+} 
+
+.modal-close,
+button:hover {
+  opacity: none;
+}
+
+.modal-close,
+button:active {
+  opacity: 0.3;
+}
+
+.message-form input {
+   opacity: 0.5;
+}
+
+input .placeholder {
+  opacity: 0.4;
+}
+
+.message-form input:hover {
+   opacity: 0.8;
+}
+
+.message-form input:focus {
+   opacity: none;
+   border: 1px solid #f7e296;
+}
+
+.catalog-page .filter-form {
+  background-color: #efefef;
+}
+
+.catalog-page input[checkbox]:hover {
+  opacity: 0.6;
+}
+
+.catalog-page input[radio]:hover {
+  opacity: 0.6;
+}
+
+.sort a {
+ font-size: 14px;
+ line-height: 18px;
+}
+
+.sort a {
+ opacity: 0.3;
+}
+
+.sort a:hover {
+ opacity: 0.6;
+}
+
+.sort a:active {
+ opacity: none;
+}
+
+.catalog-page .catalog-item {
+  background-color: #eeeeee;
+}
+
+.catalog-page .catalog-item:hover {
+  opacity: 0.7;
+}
+
+.catalog-item .button {
+  width: 200px;
+  height: 8px;
+}
+
+.catalog-item .button:hover {
+  width: 200px;
+  height: 8px;
+}
+
+.catalog-item .button:active {
+  width: 200px;
+  height: 8px;
+  opacity: 0.3;
+}
+
+.catalog-item a {
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.5;
+}
+
+.catalog-item a:hover {
+  font-size: 14px;
+  line-height: 20px;
+  opacity: none;
+}
+
+.catalog-item a:avtive {
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.2.
+}
+
+.pagination-block {
+  background-color: #ebebeb;
+  text-transform: uppercase;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  opacity: 0.3;
+}
+
+.pagination-item a:hover {
+  opacity: 0.6;
+}
+
+.pagination-item a:active {
+  opacity: none;
+}
+
+.pagination-block .button-back:hover {
+  background-color: #d9d9d9;
+}
+
+.pagination-block .button-back:active {
+  opacity: 0.3;
+}
+
+.pagination-block .button-next:hover {
+  background-color: #d9d9d9;
+}
+
+.pagination-block .button-next:active {
+  opacity: 0.3;
+}
+
+
+
