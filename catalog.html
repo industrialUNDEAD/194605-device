@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet"  href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="catalog-page">
     <header class="main-header">
@@ -16,14 +16,14 @@
           <form></form>
         </div>
         <ul class="user-list">
-          <li><a href="#">Валентин Петухов</a></li>
-          <li><a href="#">Выйти</a></li>
-          <li><a href="#">Сравнить</a></li>
-          <li><a href="#">Корзина</a></li>
+          <li><a class="user-item" href="#">Валентин Петухов</a></li>
+          <li><a class="user-item" href="#">Выйти</a></li>
+          <li><a class="user-item" href="#">Сравнить</a></li>
+          <li><a class="user-item" href="#">Корзина</a></li>
         </ul>
         <ul class="site-navigation">
           <li>Каталог товаров
-            <ul>
+            <ul class="catalog-navigation">
               <li><a href="#">Виртуальная реальность</a></li>
               <li><a href="#">Моноподы для селфи</a></li>
               <li><a href="#">Экшн-камеры</a></li>
@@ -41,9 +41,9 @@
       <main class="container">
       <h1 class="page-title">Моноподы для селфи</h1>
       <section class="breadcrumbs">
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Каталог товаров</a></li>
+        <ul class="breadcrumbs-list">
+          <li><a class="breadcrumbs-item" href="#">Главная</a></li>
+          <li><a class="breadcrumbs-item" href="#">Каталог товаров</a></li>
           <li class="breadcrumbs-current">Моноподы для селфи</li>   
         </ul>
       </section>
@@ -108,54 +108,54 @@
           <li class="catalog-item">
             <h3>
               <a href="#">
-                <span>Любительская селфи-палка</span>
-                <span>500 руб.</span>
+                <span class="item-name">Любительская селфи-палка</span>
+                <span class="item-price">500 руб.</span>
               </a>
             </h3>
             <p class="catalog-item-image">
               <img src="img/item-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
             </p>
             <a class="button" href="#">В корзину</a>
-            <a href="#">Добавить к сравнению</a>
+            <a class="comparison" href="#">Добавить к сравнению</a>
           </li>
           <li class="catalog-item">
             <h3>
               <a href="#">
-                <span>Профессиональная селфи-палка</span>
-                <span>1 500 руб.</span>
+                <span class="item-name">Профессиональная селфи-палка</span>
+                <span class="item-price">1 500 руб.</span>
               </a>
             </h3>
             <p class="catalog-item-image">
               <img src="img/item-2.jpg" width="360" height="380" alt="Профессиональная селфи-палка">
             </p>
             <a class="button" href="#">В корзину</a>
-            <a href="#">Добавить к сравнению</a>
+            <a class="comparison" href="#">Добавить к сравнению</a>
           </li>
           <li class="catalog-item">
             <h3>
               <a href="#">
-                <span>Непотопляемая селфи-палка</span>
-                <span>2 500 руб.</span>
+                <span class="item-name">Непотопляемая селфи-палка</span>
+                <span class="item-price">2 500 руб.</span>
               </a>
             </h3>
             <p class="catalog-item-image">
               <img src="img/item-3.jpg" width="360" height="380" alt="Непотопляемая селфи-палка">
             </p>
             <a class="button" href="#">В корзину</a>
-            <a href="#">Добавить к сравнению</a>
+            <a class="comparison" href="#">Добавить к сравнению</a>
           </li>
           <li class="catalog-item">
             <h3>
               <a href="img">
-                <span>Селфи-палка "Следуй за мной"</span>
-                <span>4 900 руб.</span>
+                <span class="item-name">Селфи-палка "Следуй за мной"</span>
+                <span class="item-price">4 900 руб.</span>
               </a>
             </h3>
             <p class="catalog-item-image">
               <img src="img/item-4.jpg" width="360" height="380" alt="Селфи-палка Следуй за мной">
             </p>
               <a class="button" href="#">В корзину</a>
-              <a href="#">Добавить к сравнению</a>
+              <a class="comparison" href="#">Добавить к сравнению</a>
           </li>
         </ul>
         <div class="pagination-block">
@@ -181,17 +181,17 @@
           <li><a href="#">Контакты</a></li>
         </ul>
         <div class="social">
-          <ul>
+          <ul class="social-list">
             <li><a class="social-button" href="#">Фейсбук</a></li>
             <li><a class="social-button" href="#">Инстаграмм</a></li>
             <li><a class="social-button" href="#">Твиттер</a></li>
           </ul>
         </div>
         <ul class="user-list">
-          <li><a href="#">Валентин Петухов</a></li>
-          <li><a href="#">Выйти</a></li>
-          <li><a href="#">Сравнить</a></li>
-          <li><a href="#">Корзина</a></li>
+          <li><a class="user-item" href="#">Валентин Петухов</a></li>
+          <li><a class="user-item" href="#">Выйти</a></li>
+          <li><a class="user-item" href="#">Сравнить</a></li>
+          <li><a class="user-item" href="#">Корзина</a></li>
         </ul>
         <p class="footer-copyright">
           Тел.:+7(495)495-95-95
