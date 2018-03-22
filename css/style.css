@@ -69,9 +69,7 @@ a {
 }
 
 .catalog-navigation {
-  font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 300;
   line-height: 36px;
 }
 
@@ -83,13 +81,12 @@ a {
 }
 
 .bottom-line {
-  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
 }
 
-.category-item {
+.category-list {
   font-family: Gilroy, Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -248,7 +245,6 @@ a {
 }
 
 ::-webkit-input-placeholder {
-  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -256,7 +252,6 @@ a {
 }
 
 ::-moz-placeholder { /*Firefox 19+*/
-  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -264,7 +259,6 @@ a {
 }
 
 :-moz-placeholder {  /*Firefox 18- */
-  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -272,7 +266,6 @@ a {
 }
 
 :-ms-placeholder {
-  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -313,7 +306,6 @@ a {
 }
 
 .breadcrumbs-item {
-  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
