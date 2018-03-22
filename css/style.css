@@ -9,7 +9,7 @@
   font-family: "Gilroy";
   src: url("../fonts/gilroylight.woff2") format("woff2");
   src: url("../fonts/gilroylight.woff") format("woff");
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @font-face {
@@ -23,7 +23,7 @@
   font-family: "Open Sans";
   src: url("../fonts/opensanslight.woff2") format("woff2");
   src: url("../fonts/opensanslight.woff") format("woff");
-  font-weight: 400;
+  font-weight: 300;
 }
 
 body {
