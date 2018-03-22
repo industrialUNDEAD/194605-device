@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'Gilroy ExtraBold';
+  font-family: "Gilroy"
   src: url("../fonts/gilroyextrabold.woff2") format("woff2");
   src: url("../fonts/gilroyextrabold.woff") format("woff");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "Gilroy Light";
+  font-family: "Gilroy";
   src: url("../fonts/gilroylight.woff2") format("woff2");
   src: url("../fonts/gilroylight.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Open Sans Regular';
+  font-family: "Open Sans";
   src: url("../fonts/opensans.woff2") format("woff2");
   src: url("../fonts/opensans.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Open Sans Light';
+  font-family: "Open Sans";
   src: url("../fonts/opensanslight.woff2") format("woff2");
   src: url("../fonts/opensanslight.woff") format("woff");
   font-weight: 400;
@@ -29,7 +29,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Open Sans Light", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 30px;
   color: #000000;
@@ -54,6 +54,7 @@ a {
 
 .site-navigation {
   font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
@@ -61,31 +62,36 @@ a {
 }
 
 .slide-header {
-  font-family: Gilroy ExtraBold;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 47px;
   line-height: 56px;
 }
 
 .catalog-navigation {
-  font-family: Open Sans Light;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
   font-size: 15px;
   line-height: 36px;
 }
 
 .top-line {
-  font-family: Gilroy Light;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 400;
   font-size: 36px;
   line-height: 48px;
 }
 
 .bottom-line {
-  font-family: Open Sans Light;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
   font-size: 13px;
   line-height: 20px;
 }
 
 .category-item {
-  font-family: Gilroy ExtraBold;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -121,7 +127,8 @@ a {
 }
 
 .button {
-  font-family: Gilroy ExtraBold, Arial, sans-serif;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   background-size: 220px 8px;
@@ -131,7 +138,8 @@ a {
 }
 
 .button:hover {
-  font-family: Gilroy ExtraBold, Arial, sans-serif;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   background-size: 220px 40px;
@@ -141,7 +149,8 @@ a {
 }
 
 .button:active {
-  font-family: Gilroy ExtraBold, Arial, sans-serif;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   opacity: 0.3;
@@ -178,7 +187,8 @@ a {
 
 .services-header,
 .about-header {
-  font-family: Gilroy ExtraBold, Arial, sans-serif;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 47px;
   line-height: 48px;
 }
@@ -237,8 +247,33 @@ a {
    opacity: 0.5;
 }
 
-input .placeholder {
-  font-family: Open Sans, Arial, sans-serif;
+::-webkit-input-placeholder {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  opacity: 0.4;
+}
+
+::-moz-placeholder { /*Firefox 19+*/
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  opacity: 0.4;
+}
+
+:-moz-placeholder {  /*Firefox 18- */
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  opacity: 0.4;
+}
+
+:-ms-placeholder {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   opacity: 0.4;
@@ -271,13 +306,15 @@ input .placeholder {
 }
 
 .page-title {
-  font-family: Gilroy ExtraBold, Arial, sans-serif;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 47px;
   line-height: 48px;
 }
 
 .breadcrumbs-item {
-  font-family: Open Sans Light, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   opacity: 0.3;
@@ -343,21 +380,23 @@ input .placeholder {
   opacity: 1;
 }
 
-.catalog-item a:avtive {
+.catalog-item a:active {
   font-size: 14px;
   line-height: 20px;
   opacity: 0.2.
 }
 
 .item-name {
-  font-family: Gilroy ExtraBold, Arial, sans-serif;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
 }
 
 .item-price {
-  font-family: Gilroy Light, Arial, sans-serif;
+  font-family: Gilroy, Arial, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
