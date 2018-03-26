@@ -9,32 +9,40 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="#" alt="Логотип интернет-магазина «Девайс»">
-        </a>
-        <div class="main-header-search">
-          <form></form>
+        <div class="header-column header-top">
+          <a class="header-logo">
+            <img src="#" alt="Логотип интернет-магазина «Девайс»">
+          </a>
         </div>
-        <ul class="user-list">
-          <li><a class="user-item" href="#">Войти</a></li>
-          <li><a class="user-item" href="#">Сравнить</a></li>
-          <li><a class="user-item" href="#">Корзина</a></li>
-        </ul>
-        <ul class="site-navigation">
-          <li>Каталог товаров
-            <ul class="catalog-navigation">
-              <li><a href="#">Виртуальная реальность</a></li>
-              <li><a href="#">Моноподы для селфи</a></li>
-              <li><a href="#">Экшн-камеры</a></li>
-              <li><a href="#">Фитнес-браслеты</a></li>
-              <li><a href="#">Умные часы</a></li>
-              <li><a href="#">Квадрокоптеры</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
+        <div class="header-column header-middle">
+          <div class="header-search">
+            <form>
+              <input type="search" name="search">
+            </form>
+          </div>
+          <ul class="user-list">
+            <li><a class="user-item" href="#">Войти</a></li>
+            <li><a class="user-item" href="#">Сравнить</a></li>
+            <li><a class="user-item" href="#">Корзина</a></li>
+          </ul>
+        </div>
+        <div class="header-column header-button">
+          <ul class="site-navigation">
+            <li class="navigation-item">Каталог товаров
+              <ul class="catalog-navigation">
+                <li><a href="#">Виртуальная реальность</a></li>
+                <li><a href="#">Моноподы для селфи</a></li>
+                <li><a href="#">Экшн-камеры</a></li>
+                <li><a href="#">Фитнес-браслеты</a></li>
+                <li><a href="#">Умные часы</a></li>
+                <li><a href="#">Квадрокоптеры</a></li>
+              </ul>
+            </li>
+            <li class="navigation-item"><a href="#">Доставка</a></li>
+            <li class="navigation-item"><a href="#">Гарантия</a></li>
+            <li class="navigation-item"><a href="#">Контакты</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="container">
@@ -108,23 +116,27 @@
         </ul>
       </article>
       <section class="services">
-        <ul class="services-list">
-          <li><a class="button" href="#">Доставка</a></li>
-          <li><a class="button" href="#">Гарантия</a></li>
-          <li><a class="button" href="#">Кредит</a></li>
-        </ul>
-        <div class="services-infoblock">
-          <h2 class="services-header">Доставка</h2>
-          <p>Мы с удовольствием доставим ваш товар к вашему подъезду совершенно бесплатно! Ведь мы неплохо зарабатываем, поднимая его на ваш этаж.</p>
-        </div>
-        <div class="services-infoblock">
-          <h2 class="services-header">Гарантия</h2>
-          <p>Если из-за возгорания купленного у нас товара у вас сгорит дом - не переживйте, мы вададим вам новый.<br>
-          Товар, не дом конечно же.</p>
-        </div>
-        <div class="services-infoblock">
-          <h2 class="services-header">Кредит</h2>
-          <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для нас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
+        <div class="container">
+          <div class="services-block">
+            <ul class="services-list">
+              <li><a class="button" href="#">Доставка</a></li>
+              <li><a class="button" href="#">Гарантия</a></li>
+              <li><a class="button" href="#">Кредит</a></li>
+            </ul>
+            <div class="services-infoblock">
+              <h2 class="services-header">Доставка</h2>
+              <p>Мы с удовольствием доставим ваш товар к вашему подъезду совершенно бесплатно! Ведь мы неплохо зарабатываем, поднимая его на ваш этаж.</p>
+            </div>
+          </div>
+          <div class="services-infoblock">
+            <h2 class="services-header">Гарантия</h2>
+            <p>Если из-за возгорания купленного у нас товара у вас сгорит дом - не переживйте, мы вададим вам новый.<br>
+            Товар, не дом конечно же.</p>
+          </div>
+          <div class="services-infoblock">
+            <h2 class="services-header">Кредит</h2>
+            <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для нас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
+          </div>
         </div>
       </section>
       <section class="logotypes">
@@ -156,33 +168,41 @@
       </section>
     </main>
     <footer class="main-footer">
-      <nav class="footer-navigation">
-        <div class="logo">
-          <img src="#">
-          <p>г. Москва, ул. Строителей, 15</p>
-        </div>  			
-        <ul class="site-navigation">
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-        <div class="social">
-          <ul class="social-list">
-            <li><a class="social-button" href="#">Фейсбук</a></li>
-            <li><a class="social-button" href="#">Инстаграмм</a></li>
-            <li><a class="social-button" href="#">Твиттер</a></li>
-          </ul>
-        </div>
-        <ul class="user-list">
-          <li><a class="user-item" href="#">Войти</a></li>
-          <li><a class="user-item" href="#">Сравнить</a></li>
-          <li><a class="user-item" href="#">Корзина</a></li>
-        </ul>
-        <p class="footer-copyright">
-          Тел.:+7(495)495-95-95
-          <a class="button" href="https://htmlacademy.ru"><img src="#"></a>
-        </p>
-      </nav>
+      <div class="container">
+        <nav class="footer-navigation">
+          <div class="footer-left">
+            <div class="logo">
+              <img src="#">
+              <p>г. Москва, ул. Строителей, 15</p>
+            </div>
+          </div>
+          <div class="footer-middle">
+            <ul class="site-navigation">
+              <li class="navigation-item"><a href="#">Доставка</a></li>
+              <li class="navigation-item"><a href="#">Гарантия</a></li>
+              <li class="navigation-item"><a href="#">Контакты</a></li>
+            </ul>
+            <div class="social">
+              <ul class="social-list">
+                <li><a class="social-button" href="#">Фейсбук</a></li>
+                <li><a class="social-button" href="#">Инстаграмм</a></li>
+                <li><a class="social-button" href="#">Твиттер</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-right">
+            <ul class="user-list">
+              <li><a class="user-item" href="#">Войти</a></li>
+              <li><a class="user-item" href="#">Сравнить</a></li>
+              <li><a class="user-item" href="#">Корзина</a></li>
+            </ul>
+            <p class="footer-copyright">
+              Тел.:+7(495)495-95-95
+              <a class="button" href="https://htmlacademy.ru"><img src="#"></a>
+            </p>
+          </div>
+        </nav>
+      </div>
     </footer>
     <section class="modal modal-feedback">
       <h2 class="visually-hidden">Контакты</h2>
